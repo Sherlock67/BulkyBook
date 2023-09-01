@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "tfKk/P24/1q3W14ZuY1BmwjOVz+r2Zb2Ikvqq3Kyi4w=",
+  "Hash": "qvtfGg7KZJHtn2mw8CYjEYpL/HRdBwEEolIPiKx6azg=",
   "Source": "BulkyWeb",
   "BasePath": "_content/BulkyWeb",
   "Mode": "Default",
@@ -49,6 +49,40 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\USER\\source\\repos\\BulkyWeb\\BulkyWeb\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\BulkyWeb.bundle.scp.css"
+    },
+    {
+      "Identity": "C:\\Users\\USER\\source\\repos\\BulkyWeb\\BulkyWeb\\wwwroot\\css\\bootstrap.css",
+      "SourceId": "BulkyWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\USER\\source\\repos\\BulkyWeb\\BulkyWeb\\wwwroot\\",
+      "BasePath": "_content/BulkyWeb",
+      "RelativePath": "css/bootstrap.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\bootstrap.css"
+    },
+    {
+      "Identity": "C:\\Users\\USER\\source\\repos\\BulkyWeb\\BulkyWeb\\wwwroot\\css\\bootstrap.min.css",
+      "SourceId": "BulkyWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\USER\\source\\repos\\BulkyWeb\\BulkyWeb\\wwwroot\\",
+      "BasePath": "_content/BulkyWeb",
+      "RelativePath": "css/bootstrap.min.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\bootstrap.min.css"
     },
     {
       "Identity": "C:\\Users\\USER\\source\\repos\\BulkyWeb\\BulkyWeb\\wwwroot\\css\\site.css",

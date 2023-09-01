@@ -1,4 +1,5 @@
 ﻿using BulkyWeb.Data;
+using BulkyWeb.Models;
 using Microsoft.AspNetCore.Mvc;
 
 namespace BulkyWeb.Controllers
@@ -14,6 +15,17 @@ namespace BulkyWeb.Controllers
         {
             return View(db.Categories.ToList());
         }
-       
+        public IActionResult Create()
+        {
+            return View();
+        }
+        [HttpPost]
+        public IActionResult Create(Category category)
+        {
+            db.Categories.Add(category);
+            db.SaveChanges();
+            return RedirectToAction("Index","Category");
+        }
+
     }
 }
