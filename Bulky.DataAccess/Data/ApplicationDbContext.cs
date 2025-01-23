@@ -1,5 +1,6 @@
 ﻿
 using Bulky.Models;
+using Bulky.Models.Models;
 using Microsoft.EntityFrameworkCore;
 
 namespace Bulky.DataAccess
@@ -11,5 +12,6 @@ namespace Bulky.DataAccess
 
         }
         public DbSet<Category>Categories { get; set; }
+        public DbSet<Product>Products { get; set; }
     }
 }
